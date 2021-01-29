@@ -1,11 +1,16 @@
 # How to use Django JET Admin
 
 
+use 
+```
+from six import python_2_unicode_compatible 
+```
+instead of 
+```
+from django.utils.six import python_2_unicode_compatible
 ```
 
-use from six import python_2_unicode_compatible 
-instead of from django.utils.six import python_2_unicode_compatible
-
+```
 For the above change we need six package
 
 pip install six
